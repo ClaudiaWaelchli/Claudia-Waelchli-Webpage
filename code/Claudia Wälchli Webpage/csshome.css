@@ -1,0 +1,165 @@
+body {
+  margin: 10;
+  padding: 10;
+}
+
+.static {
+  width: 400px; 
+  height: 40px; 
+  background: #ffffff; 
+}
+
+.fixed {
+  position: fixed; 
+  width:300px; 
+  height:75px; 
+}
+
+.navbar {
+  height: 145px;
+}
+
+
+nav {
+  float: right;
+  margin: 0px;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+  text-align: center;
+}
+
+
+nav a {
+  text-decoration: none;
+  color: #fffdfd;
+  display: inline-block;
+  
+}
+
+nav a:hover {
+  color: #00b2b2;
+}
+
+nav a:active {
+  font-weight: bold;
+}
+	
+.content {
+  position: fixed;
+  bottom: auto;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 25px;
+}
+
+
+div.eckenrundung {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background: #00b2b275;
+    }
+
+  .aktuell img {   
+  width: 100%;   
+  }
+ 
+
+  .nichts img { 
+  padding: 90px;
+  }
+  
+  .nichts2 img { 
+    padding-bottom: 90px;
+    }
+
+
+* {
+  font-family: Montserrat, sans-serif;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid rgb(255, 255, 255);
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid rgb(255, 255, 255);
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+#myVideo {
+  position: left;
+  right: 10;
+  bottom: 10;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+
+h1 {
+  text-align: left;
+  font-size: 50px;
+  color: #ffffff;
+}
+
+h2 {
+  padding: 5px;
+  text-align: right;
+  font-weight: normal;
+  padding: 25px;
+  font-size: 15px;
+  color: #000000;
+}
+
+h3 {
+  padding: 5px;
+  text-align: center;
+  font-size: 0px;
+  color: #ffffff;
+}
+
+
+h4 {
+  padding: 25px;
+  text-align: Left;
+  font-size: 50px;
+  color: #000000;
+}
+
+h5,h6,h7 {
+  padding: 25px;
+  text-align: left;
+  font-size: 50px;
+  color: #000000;
+}
+
+div {
+  text-align: center;
+ }
+   
+p {
+  text-align: left;
+  padding: 15px;
+  font-size: 20px;
+  color: #000000;
+}
+
+
